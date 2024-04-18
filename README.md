@@ -48,8 +48,26 @@ In this function, User pass the generated key after login and Pan Card image pat
 In this function, User pass the generated key after login and Aadhaar Card image path.
 
 ```
-    import bharatocrclient 
+    import bharatocrclient as b
     dict = b.aadhaar(key, front_image, back_image)
+```
+
+**Driving Licence**
+
+In this function, User pass the generated key after login and Aadhaar Card image path.
+
+```
+    import bharatocrclient as b
+    dict = b.driving_licence(key, image)
+```
+
+**Passport**
+
+In this function, User pass the generated key after login and Passport Card image path.
+
+```
+    import bharatocrclient as b
+    dict = b.passport(key, image)
 ```
 
 ### Contribute & support
