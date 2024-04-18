@@ -54,7 +54,7 @@ In this function, User pass the generated key after login and Aadhaar Card image
 
 **Driving Licence**
 
-In this function, User pass the generated key after login and Aadhaar Card image path.
+In this function, User pass the generated key after login and Driving Licence image path.
 
 ```
     import bharatocrclient as b
