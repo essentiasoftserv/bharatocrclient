@@ -9,7 +9,16 @@ from bharatocrclient.clients.api import (
     register,
     driving_licence,
     passport,
+    voterid,
 )
 
 
-__all__ = ["pan", "aadhaar", "login", "register", "driving_licence", "passport"]
+__all__ = [
+    "pan",
+    "aadhaar",
+    "login",
+    "register",
+    "driving_licence",
+    "passport",
+    "voterid",
+]

@@ -70,6 +70,15 @@ In this function, User pass the generated key after login and Passport Card imag
     dict = b.passport(key, image)
 ```
 
+**Voter ID**
+
+In this function, User pass the generated key after login and voter id Card image path.
+
+```
+    import bharatocrclient as b
+    dict = b.voterid(key, front_image, back_image)
+```
+
 ### Contribute & support
 We are so pleased to your help and help you, If you wanna develop bharatocrclient, Congrats or if you have problem, don't worry create an issue here:
 
