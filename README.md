@@ -79,6 +79,24 @@ In this function, User pass the generated key after login and voter id Card imag
     dict = b.voterid(key, front_image, back_image)
 ```
 
+**Vehicle Registration**
+
+In this function, User pass the generated key after login and Vehicle Registration Card image path.
+
+```
+    import bharatocrclient as b
+    dict = b.vehicle_registration(key, image)
+```
+
+**Water Bill**
+
+In this function, User pass the generated key after login and Water Bill image path.
+
+```
+    import bharatocrclient as b
+    dict = b.water_bill(key, image)
+```
+
 ### Contribute & support
 We are so pleased to your help and help you, If you wanna develop bharatocrclient, Congrats or if you have problem, don't worry create an issue here:
 
