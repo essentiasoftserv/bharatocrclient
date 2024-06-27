@@ -13,7 +13,7 @@ with open("requirements.txt", "r") as fp:
 
 setuptools.setup(
     name="bharatocr-client",
-    version="0.3.1",
+    version="0.4",
     description="bharatocr-client is an opensource python library to access BharatOcrAPIs ",
     long_description=long_description,
     long_description_content_type="text/markdown",

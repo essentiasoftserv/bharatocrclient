@@ -12,6 +12,8 @@ from bharatocrclient.clients.api import (
     voterid,
     water_bill,
     vehicle_registration,
+    birth_certificate,
+    degree,
 )
 
 
@@ -25,4 +27,6 @@ __all__ = [
     "voterid",
     "water_bill",
     "vehicle_registration",
+    "birth_certificate",
+    "degree",
 ]
