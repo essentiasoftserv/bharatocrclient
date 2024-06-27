@@ -97,6 +97,25 @@ In this function, User pass the generated key after login and Water Bill image p
     dict = b.water_bill(key, image)
 ```
 
+**Degree**
+
+In this function, User pass the generated key after login and Degree image path.
+
+```
+    import bharatocrclient as b
+    dict = b.degree(key, image)
+```
+
+**Birth Certificate**
+
+In this function, User pass the generated key after login and Birth Certificate image path.
+
+```
+    import bharatocrclient as b
+    dict = b.birth_certificate(key, image)
+```
+
+
 ### Contribute & support
 We are so pleased to your help and help you, If you wanna develop bharatocrclient, Congrats or if you have problem, don't worry create an issue here:
 
